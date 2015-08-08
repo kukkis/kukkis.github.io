@@ -1,0 +1,26 @@
+h1 {
+    font-family: cursive;
+    font-size: 25pt;
+    color: red;
+    border: 1px dotted red;
+}
+
+h4 {
+    font-family:cursive;
+    font-size:16pt;
+    color:green;
+}
+
+p {
+    font-family: cursive;
+    font-size: 14pt;
+    color: blue;
+}
+.linkit{
+    font-family: cursive;
+    font-size: 12pt;
+    color: red;    
+}
+
+    
+ 
