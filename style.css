@@ -22,5 +22,7 @@ p {
     color: red;    
 }
 
-    
- 
+.floatleft{
+    float: left;
+    width: 50%;
+}
