@@ -6,10 +6,11 @@
             function replaceName(){
                 var myNewName = window.prompt("Pick a new name!");
                 document.getElementById("user-name").innerHTML = myNewName;
-            }
+            };
             
-            document.getElementById("mybutton").onclick = replaceName;
-                 
+            window.onload = function() {
+                document.getElementById("mybutton").onclick = replaceName;
+            };
         </script>
     </head>
     <body>
