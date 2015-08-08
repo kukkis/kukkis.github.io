@@ -4,15 +4,15 @@
         <link rel="stylesheet" href="style.css" type="text/css"/>
         <script type="text/javascript">
             function replaceName(){
-                var myNewName = window.prompt('Pick a new name!');
-                document.getElementById('user-name').innerHTML = myNewName;
+                var myNewName = window.prompt("Pick a new name!");
+                document.getElementById("user-name").innerHTML = myNewName;
 }
                 document.onclick = replaceName;
         </script>
     </head>
     <body>
         <h1>Welcome</h1>
-        <p>My name is Kukka</p>
+        <p>My name is <span id= "user-name">Kukka </span></p>
         <div class= "floatleft">
            
         <h4>I like:</h4>
